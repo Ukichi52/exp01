@@ -8,15 +8,15 @@ GPU_ID = "7"
 # ============================================================================
 # MODEL PATHS
 # ============================================================================
-LLAVA_PATH = "/data/heyuji/exp01_minimal_search/model/llava-v1.5-7b"
-URM_PATH = "/data/heyuji/exp01_minimal_search/model/URM-LLaMa-3.1-8B"
-CLIP_PATH = "/data/heyuji/exp01_minimal_search/model/clip-vit-large-patch14-336"
+LLAVA_PATH = "exp01_minimal_search/model/llava-v1.5-7b"
+URM_PATH = "exp01_minimal_search/model/URM-LLaMa-3.1-8B"
+CLIP_PATH = "exp01_minimal_search/model/clip-vit-large-patch14-336"
 
 # ============================================================================
 # DATA PATHS
 # ============================================================================
-DATA_PATH = "/data/heyuji/exp01_minimal_search/data_section0/vlsafe_ecso/query20.jsonl"
-IMAGE_DIR = "/data/heyuji/exp01_minimal_search/data_section0/vlsafe_ecso/imgs"
+DATA_PATH = "exp01_minimal_search/data_section0/vlsafe_ecso/query20.jsonl"
+IMAGE_DIR = "exp01_minimal_search/data_section0/vlsafe_ecso/imgs"
 
 # ============================================================================
 # HYPERPARAMETERS
@@ -49,5 +49,5 @@ ATTACK_STRATEGIES = [
 # ============================================================================
 # LOGGING
 # ============================================================================
-LOG_DIR = "/data/heyuji/exp01_minimal_search/logs"
+LOG_DIR = "exp01_minimal_search/logs"
 os.makedirs(LOG_DIR, exist_ok=True)
